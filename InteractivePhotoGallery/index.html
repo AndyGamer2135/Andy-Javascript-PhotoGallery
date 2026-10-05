@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Photo Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+
+        <img src="images/photo1.webp"
+             alt="A beautiful mountain view"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/photo2.jpg"
+             alt="A view of the beach"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/photo3.jpg"
+             alt="A city view at night"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/photo4.webp"
+             alt="A green forest"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/photo5.avif"
+             alt="A peaceful lake"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/photo6.jpg"
+             alt="A colorful sunset"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
